@@ -5,7 +5,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { Component } from '@angular/core';
-import { MessageService } from './messages/message.service';
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -13,7 +12,6 @@ var AppComponent = (function () {
         Component({
             selector: 'my-app',
             templateUrl: './app.component.html',
-            providers: [MessageService],
         })
     ], AppComponent);
     return AppComponent;

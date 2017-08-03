@@ -11,9 +11,7 @@ import * as i3 from '@angular/router';
 import * as i4 from './errors/error.component.ngfactory';
 import * as i5 from './errors/error.component';
 import * as i6 from './errors/error.service';
-import * as i7 from './messages/message.service';
-import * as i8 from '@angular/http';
-import * as i9 from './app.component';
+import * as i7 from './app.component';
 var styles_AppComponent = [];
 export var RenderType_AppComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_AppComponent,
     data: {} });
@@ -31,8 +29,7 @@ export function View_AppComponent_0(_l) {
     }, null);
 }
 export function View_AppComponent_Host_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 2, 'my-app', [], null, null, null, View_AppComponent_0, RenderType_AppComponent)),
-        i0.ɵprd(4608, null, i7.MessageService, i7.MessageService, [i8.Http, i6.ErrorService]),
-        i0.ɵdid(49152, null, 0, i9.AppComponent, [], null, null)], null, null);
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'my-app', [], null, null, null, View_AppComponent_0, RenderType_AppComponent)),
+        i0.ɵdid(49152, null, 0, i7.AppComponent, [], null, null)], null, null);
 }
-export var AppComponentNgFactory = i0.ɵccf('my-app', i9.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+export var AppComponentNgFactory = i0.ɵccf('my-app', i7.AppComponent, View_AppComponent_Host_0, {}, {}, []);
